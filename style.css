@@ -4,15 +4,15 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f9f9f9; /* Light grey background */
+    background-color: #f5f5f5; /* Slightly darker grey background for better contrast */
 }
 
 .skip-link {
     position: absolute;
     top: -40px;
     left: 0;
-    background: #007bff;
-    color: #ffffff; /* Higher contrast text color */
+    background: #0056b3; /* Darker blue for better visibility */
+    color: #ffffff; /* High contrast text color */
     padding: 8px 16px;
     z-index: 100;
     transition: top 0.3s;
@@ -36,9 +36,9 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #007bff; 
+    background-color: #003d79; /* Darker blue for better contrast */
     padding: 10px 0;
-    border-bottom: 2px solid #0056b3; 
+    border-bottom: 2px solid #002d62; /* Even darker blue */
 }
 
 nav ul li {
@@ -54,7 +54,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffc107; 
+    color: #ffc107; /* Maintain hover contrast */
 }
 
 .hero-section {
@@ -66,11 +66,11 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #ffffff; /* Improved text color for readability */
+    color: #ffffff; /* High contrast text color */
 }
 
 .overlay-box {
-    background-color: rgba(0, 0, 0, 0.7); /* Darker overlay for better text readability */
+    background-color: rgba(0, 0, 0, 0.8); /* Even darker overlay for better readability */
     padding: 20px;
     border-radius: 8px;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -78,20 +78,20 @@ nav ul li a:hover {
 
 .overlay-box h1 {
     font-family: 'Pacifico', cursive;
-    font-size: 3em; /* Larger font size */
+    font-size: 3em;
     margin: 0;
-    color: #ffffff; /* Ensure high contrast for heading */
+    color: #ffffff; /* High contrast for headings */
 }
 
 .overlay-box h2 {
-    font-size: 1.5em; /* Slightly larger font size */
+    font-size: 1.5em;
     margin-top: 10px;
     color: #ffc107; /* Yellow color for subheadings */
 }
 
 /* Content Box Styles */
 .content-box {
-    background-color: #333; /* Dark grey background */
+    background-color: #1a1a1a; /* Very dark grey for high contrast */
     color: #ffffff; /* White text color */
     padding: 40px;
     width: 80%;
@@ -104,7 +104,7 @@ nav ul li a:hover {
 }
 
 .content-box:hover {
-    background-color: #1a1a1a; /* Improved contrast on hover */
+    background-color: #333; /* Slightly lighter grey for hover */
     transform: translateY(-5px); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
@@ -117,11 +117,11 @@ main {
 }
 
 .page-heading {
-    background-color: #7a796e; 
+    background-color: #4a4a4a; /* Darker grey for better contrast */
     color: #ffffff; /* High contrast text color */
     padding: 20px;
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: block; 
     width: 90%; 
     max-width: 100%; 
@@ -130,7 +130,7 @@ main {
 }
 
 h1, h2 {
-    color: #007bff;
+    color: #003d79; /* Darker blue for headings */
 }
 
 h1.page-heading {
@@ -138,7 +138,7 @@ h1.page-heading {
 }
 
 h2.page-heading {
-    color: #4caf50; 
+    color: #4caf50; /* Maintain contrast for subheadings */
 }
 
 img {
@@ -167,7 +167,7 @@ img {
 }
 
 .grid-item {
-    background-color: #a89a9a;
+    background-color: #d3d3d3; /* Light grey for better contrast */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -182,7 +182,7 @@ img {
 }
 
 .cat-breeds li {
-    color: #333; /* Ensure high contrast text color */
+    color: #333; /* High contrast text color */
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -195,18 +195,18 @@ img {
 }
 
 .cat-breeds li:nth-child(odd) {
-    background-color: #66808b;
+    background-color: #7a8c9a; /* More contrast for odd items */
     border-radius: 0 8px 8px 0;
 }
 
 .cat-breeds li:nth-child(even) {
-    background-color: #7e94dd;
+    background-color: #9faabf; /* More contrast for even items */
     border-radius: 8px 0 0 8px;
 }
 
 .cat-breeds li:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    filter: brightness(85%); /* Darken the background color on hover */
+    filter: brightness(90%); /* Darken the background color on hover */
 }
 
 .breed-image {
@@ -222,5 +222,5 @@ footer {
     text-align: center;
     border-top: 1px solid #ddd;
     margin-top: 20px;
-    color: #777; 
+    color: #333; /* Darker text color for better readability */
 }
